@@ -2,16 +2,14 @@
   <div id="app">
     <div id="background-cover"></div>
     <Header></Header>
-    <Todo
-
-    />
+    <Todo/>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/footer.jsx'
+import Header from './layout/Header.vue'
+import Footer from './layout/footer.jsx'
 import Todo from './components/Todo.vue'
 
 export default {
